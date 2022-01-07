@@ -1,2 +1,0 @@
-# PKL
-Credit Scoring PKL
