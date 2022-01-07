@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Ubuntu;
+    
+}
+
+nav {
+    background-color: #dcdcdc;
+    padding: 5px;
+    text-align: right;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+ }
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+    width: 10px;
+ }
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+ }
+ nav img{
+     float: left;
+     width: 70px;
+     height: auto;
+     margin-left: 35px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.logo p{
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+.btn{
+    border-radius: 50px;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(235, 26, 26);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: Ubuntu;
+}
+
+.btn1{
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    margin-top: 50px;
+
+}
+.btn:hover{
+    background-color:rgb(44, 44, 155);
+    color: white;
+}
+.foto{
+    
+}
+.foto img{
+    width: 600px;
+    height: 545px;
+    left: 102px;
+    top: 98px;
+    border-radius: 180px 50px 180px 40px;
+    margin: 50px;
+    float: right;
+    filter: drop-shadow(0 0 50px rgb(224, 224, 224));
+}
+
+section{
+    display: flex;
+}
+.card{
+    margin: 50px 50px 50px 50px;
+    width: 300px;
+    height: 545px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(0 0 50px rgb(224, 224, 224));
+    text-align: center;
+}
+
+.card p{
+    margin: 15px;
+}
+
+.imglogo1{
+    background-color: #d2e5ff;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    margin: 50px auto auto auto;
+    align-items: center;
+    display: flex;
+}
+
+.imglogo1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+.imglogo2{
+    background-color: #ffe4b1;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    margin: 50px auto auto auto;
+    align-items: center;
+    display: flex;
+}
+
+.imglogo2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
