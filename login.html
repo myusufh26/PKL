@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+  background-image: url("bg.png");
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background: linear-gradient(rgba(36, 35, 35, 0.5), rgba(22, 21, 21, 0.5)), url("bg.png");
+}
+
+.right {
+  right: 0;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <h2>BPR</h2>
+    <p>DANA PERMATA LESTARI</p>
+  </div>
+</div>  
+
+<div class="split right">
+  <div class="centered">
+    <div class="container">
+        <h1>Login</h1>
+          <form>
+              <label>Username</label><br>
+              <input type="text"><br>
+              <label>Password</label><br>
+              <input type="password"><br>
+              <button>Log in</button>
+          </form>
+      </div>     
+  </div>
+</div>     
+</body>
+</html> 
